@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kaushan+Script&family=Pattaya&family=Poppins&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.nav_bg{
+	background-color: hsl(0deg 68% 24% / 69%);
+	width: 100%;
+	height: 80px;
+	/*position: fixed;*/
+	position: sticky;
+	top: 0;
+}
+
+.nav_bg h1{
+	float: left;
+	color: #000000;
+	font-size: 30px;
+	font-family: Pattaya;
+	font-weight: 100;
+	letter-spacing: 0.245em;
+	padding: 14px;
+	padding-left: 4%;
+}
+
+.nav_bg nav ul{
+	float: right;
+}
+
+.nav_bg nav ul li{
+	display: inline-block;
+	margin-right: 50px;
+	margin-top: 22px;
+}
+
+.nav_bg nav ul li a{
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	font-family: Poppins;
+    padding: 10px; 
+    margin: 10px;
+}
+
+.nav_bg nav ul li a:hover{
+	background-color: hsl(0deg 56% 71% / 61%);
+	border-radius: 5px;
+}
+
+.about{
+	width: 100%;
+	height: 450px;
+	background: rgba(176, 85, 85, 0.63);
+	border-bottom-left-radius: 30px;
+	margin-bottom: 90px;
+}
+
+.about img{
+	width: 350px;
+	height: 350px;
+	float: left;
+	padding: 10px;
+	margin: 150px;
+	margin-right: 0px;
+	margin-top: 40px;
+	transition: all 0.9;
+}
+
+.about img:hover{
+	transform: scale(0.5);
+	cursor: pointer;
+}
+
+.about h1{
+	text-align: center;
+	color: white;
+	padding-bottom: 1px;
+	padding-top: 90px;
+	font-size: 17px;
+	font-family: Poppins;
+	letter-spacing: 0.245em;
+}
+
+.about p{
+	text-align: center;
+	padding: 18px;
+	line-height: 20px;
+	margin: 5px;
+	font-size: 15px;
+	font-family: Poppins;
+	letter-spacing: 0.1em;
+	color: white;
+}
+
+.about button{
+	color: rgba(0, 0, 0, 0.57);
+	font-family: Poppins;
+	font-weight: 200;
+	padding: 8px;
+	padding-left: 35px;
+	padding-right: 35px;
+	text-align: center; 
+	margin: 10px;
+	margin-top: 0;
+	border: none;
+	border-radius: 9px;
+	background-color: rgba(255, 255, 255, 0.49);
+}
+
+.about i{
+	color: rgba(0, 0, 0, 0.6);
+	padding: 5px;
+}
+
+.service{
+	padding-left: 10%;
+	margin-bottom:20px;
+}
+
+.service img{
+	float: left;
+	width: 300px;
+	height: 300px;
+	border: 20px solid rgba(183, 76, 76, 0.35);
+}
+
+.service .servicemain{
+	display: flex;
+   flex-direction: column;
+   padding: 50px;
+   padding-top: 75px; 
+   height: 300px;
+   width: 50%;
+}
+
+.service .servicemain .name{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 15px; 
+}
+
+.service .servicemain .name h1{
+	font-family: Poppins;
+	letter-spacing: 0.245em;
+	font-size: 20px;
+	padding-top: 11px;
+}
+
+.service .servicemain .name button{
+	font-family: Poppins;
+	letter-spacing: 0.245em;
+	color: white;
+	border: none;
+	padding: 10px;
+	font-weight: 800;
+	width: 100px;
+	background-color: rgba(192, 105, 77, 0.47);
+	border-radius: 9px;
+}
+
+.service .servicemain .pargraph p{
+	padding: 10px;
+	font-family: Poppins;
+	letter-spacing: 0.245em;
+	font-size: 12px;
+}
+
+.service .servicemain:hover{
+	box-shadow: 11px 11px 10px gray;
+}
+
+.service1{
+	padding-right: 10%;
+	margin-bottom:20px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.service1 img{
+	float: right;
+	width: 300px;
+	height: 300px;
+	border: 20px solid rgba(183, 76, 76, 0.35);
+}
+
+.service1 .servicemain1{
+
+	display: flex;
+   flex-direction: column;
+   padding: 50px;
+   padding-top: 75px; 
+   height: 300px;
+   width: 50%;
+}
+
+.service1 .servicemain1 .name{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 15px; 
+}
+
+.service1 .servicemain1 .name h1{
+	font-family: Poppins;
+	letter-spacing: 0.245em;
+	font-size: 20px;
+	padding-top: 11px;
+}
+
+.service1 .servicemain1 .name button{
+	font-family: Poppins;
+	letter-spacing: 0.245em;
+	color: white;
+	border: none;
+	padding: 10px;
+	font-weight: 800;
+	width: 100px;
+	background-color: rgba(192, 105, 77, 0.47);
+	border-radius: 9px;
+}
+
+.service1 .servicemain1 .pargraph p{
+	padding: 10px;
+	font-family: Poppins;
+	letter-spacing: 0.245em;
+	font-size: 12px;
+}
+
+.service1 .servicemain1:hover{
+	box-shadow: -10px 11px 11px gray;
+}
+
+.main_contact{
+	margin-top: 80px; 
+	width: 100%;
+	height: 450px;
+	background-color: rgba(183, 76, 76, 0.35);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+.main_contact .contact_me{
+	background-color: white;
+	margin: 20px;
+	padding: 70px;
+	height: 350px;
+}
+
+.main_contact .contact_me i{
+	float: right;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+
+.main_contact .contact_me h1{
+	font-family: 'Poppins';
+	letter-spacing: 0.245em;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.main_contact .contact_me p{
+	font-family: 'Poppins';
+	letter-spacing: 0.245em;
+	font-size: 12px;
+	text-align: justify;
+	padding: 20px;
+}
+
+.main_contact .contact_me button{
+	padding: 10px;
+	font-family: 'Poppins';
+	letter-spacing: 0.245em;
+	margin-left: 22px;
+	border: none;
+	font-weight: 600;
+	background-color: rgba(192, 105, 77, 0.47);
+	border-radius: 10px;
+	width: 40%;
+}
+
+.review{
+	background-image: url("../image/5.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+	padding: 50px;
+}
+
+.review .fa-arrow-right{
+	float: right;
+}
+
+.review h1{
+	text-align: center;
+	padding: 30px;
+	margin: 20px;
+	font-family: 'Poppins';
+	letter-spacing: 0.245em;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.review p{
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+	font-family: 'Poppins';
+	letter-spacing: 0.245em;
+	font-size: 15px;
+	background-color: #bcbcbc2e;
+	border: none;
+}
+
+.follow_me{
+	background-color: rgba(183, 76, 76, 0.35);
+	width: 100%;
+	height: 300px;
+	position: absolute;
+}
+
+.follow_me h1{
+	text-align: center;
+	font-family: 'Poppins';
+	letter-spacing: 0.245em;
+	font-size: 24px;
+	padding: 20px;
+	padding-top: 50px;
+	color: white;
+}
+
+.images{
+	width: 100%;
+	height: 550px;
+}
+
+.images img{
+	width: 223px;
+	height: 308px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.images .img6{
+	margin-left:110px; 
+	transform: translateY(30px);
+}
+
+.images .img7{
+	transform: translateY(150px);
+}
+
+.images .img8{
+	transform: translateY(180px);
+}
+
+.images .img9{
+	transform: translateY(85px);
+}
+
+.images .img10{
+	transform: translateY(30px);
+}
+
+.icon i{
+	padding: 10px;
+	margin-bottom: 20px;
+	color: rgba(0, 0, 0, 0.6);
+}
